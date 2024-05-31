@@ -1,0 +1,38 @@
+.body1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: aquamarine;
+    margin-top: 40vh;
+}
+
+.tabel{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 85%;
+    margin-left: 7.5%;
+}
+  
+td, th{
+    border: 2px solid #000000;
+    text-align: center;
+    padding: 8px;
+}
+
+.info-body{
+    text-align: center;
+}
+
+button{
+    font-family: arial, sans-serif;
+    border: 0;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.br{
+    width: 10vw;
+}
