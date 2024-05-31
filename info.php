@@ -15,7 +15,7 @@
 
             <tr>
                 <th>ID</th>
-                <th><button name="desc-land">Land &#11163;</button></th> 
+                <th><button name="desc-land" class="qw">Land &#11163;</button></th> 
                 <th>IP</th>
                 <th>Provider</th>
                 <th>browser</th>

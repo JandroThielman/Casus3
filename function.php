@@ -63,7 +63,7 @@ function Tabel(){
     
             }
     } else {
-        $query = $db->prepare("SELECT * FROM bezoekers ORDER BY bezoekers.land ASC");
+        $query = $db->prepare("SELECT * FROM bezoekers");
         $query->execute();
         $result = $query->fetchAll(PDO::FETCH_ASSOC); 
     
