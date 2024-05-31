@@ -8,14 +8,21 @@
 </head>
 <body class='body1'>
 
+    <form method="post">
+
+        <button class="btn" name="inloggen">Statistiekensysteem Zien</button>
+
+    </form>
+
     <h1>Jandro Thielman</h1>
 
     <?php
 
-    include 'function.php';
-    gebruikerInfo();
+        include 'function.php';
+        gebruikerInfo();
+        inloggen();
 
-    echo "(❁´◡`❁)<br><br>";
+        echo "(❁´◡`❁)<br><br>";
 
     ?>
     

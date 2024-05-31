@@ -25,7 +25,7 @@ td, th{
     text-align: center;
 }
 
-button{
+.qw{
     font-family: arial, sans-serif;
     border: 0;
     background-color: transparent;
@@ -35,4 +35,29 @@ button{
 
 .br{
     width: 10vw;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    height: 7vh;
+    width: 15vw;
+    position: absolute;
+    top: 1vh;
+    right: .4vw;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #000000;
+}
+
+.inlog-form{
+    width: 30vw;
+    height: 50vh;
+    background-color: cadetblue;
+}
+
+form{
+    text-align: center;
 }

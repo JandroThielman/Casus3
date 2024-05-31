@@ -86,5 +86,24 @@ function Tabel(){
 
 }
 
+function inloggen(){
+    if (isset($_POST['inloggen'])) {
+        header("Location: inloggen.php");
+    }
+}
+
+function ingelogd(){
+
+    if (isset($_POST['inlog'])) {
+        $username = $_POST['username'];
+        $password = $_POST['password'];
+
+        if ($username == 'admin' & $password == 'admin') {
+            header("Location: info.php");
+        }
+
+    }
+}
+
 
 ?>

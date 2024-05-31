@@ -19,7 +19,7 @@
                 <th>IP</th>
                 <th>Provider</th>
                 <th>browser</th>
-                <th class="br"><button name="desc-datum">Datum en Tijd &#11163;</button></th>
+                <th class="br"><button class="qw" name="desc-datum">Datum en Tijd &#11163;</button></th>
                 <th>Referer</th>
             </tr>
 
